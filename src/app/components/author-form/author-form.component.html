@@ -1,0 +1,30 @@
+<form class="border-gray-400 border-2 rounded-md p-7 flex flex-col space-y-1">
+    <p class="font-black uppercase mx-auto text-3xl mb-5">Author</p>
+    <label> Name:
+        <input type="text" class="border-gray-400 border-2 rounded-md float-end px-1">
+    </label>
+    <label> Date of Birth:
+        <input type="date" class="float-end">
+    </label>
+    <label> Nationality:
+        <input type="text" class="border-gray-400 border-2 rounded-md float-end px-1">
+    </label>
+    <button class="p-1 mt-5 font-bold bg-sky-500 rounded-md uppercase hover:cursor-pointer hover:text-white hover:inset-ring-2 hover:inset-ring-black">Submit</button>
+</form>
+<table class="w-full">
+    <thead class="border-b-2 border-gray-400">
+        <td>Name</td>
+        <td>Date of Birth</td>
+        <td>Nationality</td>
+        <td>Actions</td>
+    </thead>
+    <tr class="hover:bg-gray-200">
+        <td class="py-1">example</td>
+        <td class="py-1">01/01/1999</td>
+        <td class="py-1">english</td>
+        <td class="py-1 space-x-3">
+            <button class="px-2 font-bold uppercase bg-amber-500 hover:cursor-pointer hover:text-white hover:inset-ring-2 hover:inset-ring-black">edit</button>
+            <button class="px-2 font-bold uppercase bg-red-500 hover:cursor-pointer hover:text-white hover:inset-ring-2 hover:inset-ring-black">delete</button>
+        </td>
+    </tr>
+</table>
