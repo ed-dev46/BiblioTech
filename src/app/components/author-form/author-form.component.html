@@ -27,4 +27,12 @@
             <button class="px-2 font-bold uppercase bg-red-500 hover:cursor-pointer hover:text-white hover:inset-ring-2 hover:inset-ring-black">delete</button>
         </td>
     </tr>
+    @for (author of authors; track author) { 
+        <tr>
+            <td>{{ author.id }}</td>
+            <td>{{ author.name }}</td>
+            <td>{{ author.dateOfBirth }}</td>
+            <td>{{ author.nationality }}</td>
+        </tr>
+    }
 </table>

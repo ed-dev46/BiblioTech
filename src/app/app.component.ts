@@ -5,7 +5,7 @@ import { BookFormComponent } from './components/book-form/book-form.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AuthorFormComponent, BookFormComponent],
+  imports: [RouterOutlet, AuthorFormComponent, BookFormComponent, http],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
